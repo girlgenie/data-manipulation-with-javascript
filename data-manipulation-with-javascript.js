@@ -49,3 +49,4 @@ function areallDivisibleby5(numbers) { return numbers.every(number => number % 5
 const numbers1 = [10,15,20,5];
 console.log(areallDivisibleby5(numbers1))
 
+// Check if the first number is larger than the last. 
