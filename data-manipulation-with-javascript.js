@@ -50,3 +50,16 @@ const numbers1 = [10,15,20,5];
 console.log(areallDivisibleby5(numbers1))
 
 // Check if the first number is larger than the last. 
+let firstLargerThanLast = n1 > n4; 
+console.log(`Is the first number larger than the last? ${firstLargerThanLast}`)
+
+// Accomplish the following arithmetic chain
+// Subtract the first number from the second number.
+let subtractFirstfromSecond = n2 - n1; 
+console.log(`${n2} - ${n1} = ${subtractFirstfromSecond}`)
+
+// Multiply the result by the third number.
+let mutiplyTheResultByThirdNumber = subtractFirstfromSecond * n3;
+console.log(`The result of the above multiplied by the third number is ${mutiplyTheResultByThirdNumber}`)
+
+// Find the remainder of dividing the result by the fourth number.
