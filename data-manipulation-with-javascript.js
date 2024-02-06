@@ -63,3 +63,7 @@ let mutiplyTheResultByThirdNumber = subtractFirstfromSecond * n3;
 console.log(`The result of the above multiplied by the third number is ${mutiplyTheResultByThirdNumber}`)
 
 // Find the remainder of dividing the result by the fourth number.
+let findtheremainder = mutiplyTheResultByThirdNumber % n4; 
+console.log(`The remainder of dividing the result by the fourth number is ${findtheremainder}`)
+
+// Change the way that isOver25 calculates so that we do not need to use the NOT operator (!) in other logic comparisons. Rename the variable as appropriate.
